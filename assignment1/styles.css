@@ -1,0 +1,32 @@
+/* classes are (.) and ids are (#) */
+html {
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
+}
+.header {
+	overflow: hidden;
+	padding-top: 0%;
+	padding-left padding-right: 8%;
+}
+.logo {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+}
+.header a {
+	float: left;
+	text-align: center;
+	padding: 25px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 25px;
+	border-radius: 4px;
+}
+.header-right {
+	float: right;
+}
+@media(min-width:) {}
