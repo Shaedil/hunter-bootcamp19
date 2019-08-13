@@ -1,4 +1,5 @@
 /* classes are (.) and ids are (#) */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans&display=swap');
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
 	height: 100%;
@@ -12,33 +13,43 @@ body, html {
 		min-height: 400px;
 	}
 }
+p {
+	padding-left: 20%;
+	padding-right: 20%;
+}
+img {
+	width: 59px;
+	height: 51px;
+}
 .bgimg-1, .bgimg-2, .bgimg-3 {
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.w3-top.active {
+	background-color: #fff;
+}
+.w3-top>a:first-of-type {
+	color: black;
+}
+#Navbar {
+	float: right;
+	color: black;
+}
+#Navbar>a {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
 .bgimg-1 {
 	background-image: url('https://www.w3schools.com/w3images/parallax1.jpg');
+	/* background-image: url('https://image.pbs.org/video-assets/33hGBh1-asset-mezzanine-16x9-BNHfukt.jpg?&format=jpg') */
 	min-height: 100%;
 }
 .logo {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 40px;
 	font-weight: bold;
-}
-.header a {
-	float: left;
-	text-align: center;
-	padding: 25px;
-	text-decoration: none;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	font-weight: bold;
-	line-height: 25px;
-	border-radius: 4px;
-}
-.header-right {
-	float: right;
 }
 @media(min-width:) {}
